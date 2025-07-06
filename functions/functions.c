@@ -12,5 +12,4 @@ int main(){
     printf("Square X : %d\n", square(x));
     printf("Square Y : %d\n", square(y));
     printf("Square Z : %d\n", square(z));
-
 }
