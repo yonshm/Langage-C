@@ -3,7 +3,7 @@
 typedef enum{SUCCESS,FAILURE,PENDING}STATUS;
 void connectStatus(STATUS status);
 int main(){
-    STATUS status = SUCCESS;
+    STATUS status = FAILURE;
     connectStatus(status);
 
     return 0;
