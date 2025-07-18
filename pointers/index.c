@@ -3,7 +3,8 @@ void birthday(int *age);
 int main(){
     int age = 21;
     int *pAge = &age;
-    birthday(pAge);
+    // birthday(pAge);
+    printf("%d", *pAge);
     printf("%d", age);
 }
 
