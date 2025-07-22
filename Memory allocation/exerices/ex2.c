@@ -13,4 +13,7 @@ int main(){
         
     }
     printf("La somme est : %d", *somme);
+    free(n);
+    free(somme);
+    return 0;
 }
